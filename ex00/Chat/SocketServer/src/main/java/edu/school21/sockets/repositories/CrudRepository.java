@@ -1,4 +1,4 @@
-package edu.sclool21.sockets.repositories;
+package edu.school21.sockets.repositories;
 
 import java.util.List;
 

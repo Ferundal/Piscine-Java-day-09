@@ -42,7 +42,7 @@
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>libs/</classpathPrefix>
                             <mainClass>
-                                edu.sclool21.cjettie.app.Program
+                                edu.school21.sockets.app.Main
                             </mainClass>
                         </manifest>
                     </archive>
@@ -78,6 +78,13 @@
             <artifactId>spring-jdbc</artifactId>
             <version>5.3.12</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-crypto</artifactId>
+            <version>5.6.3</version>
+        </dependency>
+
         <dependency>
             <groupId>com.zaxxer</groupId>
             <artifactId>HikariCP</artifactId>

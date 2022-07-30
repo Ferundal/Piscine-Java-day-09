@@ -1,4 +1,4 @@
-package edu.sclool21.sockets.models;
+package edu.school21.sockets.models;
 
 public class User {
     private Long identifier = null;
@@ -25,6 +25,14 @@ public class User {
 
     public void setLogin(String login) {
         this.login = login;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     @Override

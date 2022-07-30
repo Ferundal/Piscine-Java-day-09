@@ -42,7 +42,7 @@
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>libs/</classpathPrefix>
                             <mainClass>
-                                edu.sclool21.cjettie.app.Program
+                                edu.sclool21.cjettie.app.Main
                             </mainClass>
                         </manifest>
                     </archive>
